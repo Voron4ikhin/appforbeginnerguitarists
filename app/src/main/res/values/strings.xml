@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">App for beginner guitarists</string>
+    <string name="app_name">Guitar beginner</string>
+    <string name="My_songs">Мои песни</string>
+    <string name="Search">Поиск</string>
+    <string name="Tuner">Тюнер</string>
+    <string name="Study">Обучение</string>
 </resources>
