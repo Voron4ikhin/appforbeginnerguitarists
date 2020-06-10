@@ -47,49 +47,61 @@
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                >
 
                 <LinearLayout
                     android:id="@+id/container4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:orientation="vertical">
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/about_guitar"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/About_guitar" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_guitar" />
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/hands"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/Hands" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_hands" />
 
-                    <Button
+
+
+                    <ImageButton
                         android:id="@+id/chords"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/Chords" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_chords" />
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/chords2"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/Chords2" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_barre" />
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/beats"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/Beats" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_beats" />
 
-                    <Button
+                    <ImageButton
                         android:id="@+id/bust"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:text="@string/Bust" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="236dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_perebor" />
+
                 </LinearLayout>
             </ScrollView>
 
