@@ -4,4 +4,11 @@
     <string name="Search">Поиск</string>
     <string name="Tuner">Тюнер</string>
     <string name="Study">Обучение</string>
+    <string name="Back">Назад</string>
+    <string name="About_guitar">Что же такое гитара</string>
+    <string name="Hands">Постановка рук</string>
+    <string name="Chords">Простые аккорды</string>
+    <string name="Chords2">Барэ</string>
+    <string name="Beats">Бои</string>
+    <string name="Bust">Перебор</string>
 </resources>

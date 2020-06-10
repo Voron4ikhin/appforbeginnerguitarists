@@ -1,5 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <ImageView
+        android:id="@+id/study_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_background" />
+
+    <LinearLayout
+        android:id="@+id/conteiner1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/conteiner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/conteiner3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_stroke_white_press_blue"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="@string/Back"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/container4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/about_guitar"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/About_guitar" />
+
+                    <Button
+                        android:id="@+id/hands"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/Hands" />
+
+                    <Button
+                        android:id="@+id/chords"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/Chords" />
+
+                    <Button
+                        android:id="@+id/chords2"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/Chords2" />
+
+                    <Button
+                        android:id="@+id/beats"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/Beats" />
+
+                    <Button
+                        android:id="@+id/bust"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="@string/Bust" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
