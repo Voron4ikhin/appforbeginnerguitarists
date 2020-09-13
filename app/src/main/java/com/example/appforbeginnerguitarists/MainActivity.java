@@ -32,8 +32,20 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Window w = getWindow();
-        w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Button buttonChords = (Button)findViewById(R.id.Tuner);
+        buttonChords.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(MainActivity.this, Chords.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+        //Window w = getWindow();
+        //w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
 

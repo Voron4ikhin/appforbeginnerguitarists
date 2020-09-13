@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Guitar beginner</string>
-    <string name="My_songs">Мои песни</string>
-    <string name="Search">Поиск</string>
+    <string name="My_songs">Песни</string>
+    <string name="Search">Ноты</string>
     <string name="Tuner">Тюнер</string>
     <string name="Study">Обучение</string>
     <string name="Back">Назад</string>
@@ -11,4 +11,38 @@
     <string name="Chords2">Барэ</string>
     <string name="Beats">Бои</string>
     <string name="Bust">Перебор</string>
+    <string name="guitar_info">Огромный текст про устройство гитары</string>
+    <string name="All_chords">Аккорды</string>
+    <string-array name="chord_list">
+        <item>Am</item>
+        <item>C</item>
+        <item>Cm</item>
+        <item>A</item>
+        <item>G</item>
+        <item>Dm</item>
+    </string-array>
+    <string name="Am">Аккорд Аm (Ля минор)</string>
+    <string name="A">Аккорд A (Ля мажор)</string>
+    <string name="Bm">Аккорд Bm (Си минор)</string>
+    <string name="B">Аккорд B (Си мажор)</string>
+    <string name="Cm">Аккорд Cm (До минор)</string>
+    <string name="C">Аккорд C (До мажор)</string>
+    <string name="Dm">Аккорд Dm (Рэ минор)</string>
+    <string name="D">Аккорд D (Рэ мажор)</string>
+    <string name="Em">Аккорд Em (Ми минор)</string>
+    <string name="E">Аккорд E (Ми мажор)</string>
+    <string name="Fm">Аккорд Fm (Фа минор)</string>
+    <string name="F">Аккорд F (Фа мажор)</string>
+    <string name="Gm">Аккорд Gm (Соль минор)</string>
+    <string name="G">Аккорд G (Соль мажор)</string>
+    <string name="am_chord_info">Это аккорд am и он такой-то и такой.
+        Все что надо знать про него вы можете найти тут.
+        Этот аккорд входит в ля группу и я не знаю еще
+        что писать так что просто</string>
+    <string name="am_chord_start">Аккорд Am на гитаре – это первый аккорд, который ставит начинающий гитарист. Гармония настолько распространена, что львиная доля песен записана либо в тональности ля минор, либо содержат в себе данную гармонию.
+        Несмотря на кажущуюся простоту, взятие этого созвучия даёт юному музыканту необходимые базовые навыки при дальнейшей игре песен на инструменте.</string>
+
+
+
+    <string name="guitar_info1">Привет меня зовут илья и это мое приложение для гитаристов</string>
 </resources>
