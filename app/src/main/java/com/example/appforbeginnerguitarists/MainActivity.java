@@ -44,6 +44,33 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        Button buttonSongs = (Button)findViewById(R.id.my_songs);
+        buttonSongs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(MainActivity.this, Songs.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
+        Button buttonNotes = (Button)findViewById(R.id.Search);
+        buttonNotes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent intent = new Intent(MainActivity.this, Notes.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
+            }
+        });
+
         //Window w = getWindow();
         //w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 

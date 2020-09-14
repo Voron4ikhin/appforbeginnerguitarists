@@ -76,55 +76,62 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/conteiner5"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="20dp">
 
-            <ImageButton
-                android:id="@+id/image_play"
-                android:layout_width="86dp"
-                android:layout_height="90dp"
-                android:popupBackground="@android:color/transparent"
-                android:src="@drawable/play_button"
-                android:onClick="play"/>
 
-            <TextView
-                android:id="@+id/start_info_chord"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_toEndOf="@id/image_play"
-                android:bufferType="spannable"
-                android:paddingStart="10dp"
-                android:text="@string/am_chord_start"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                tools:ignore="RtlSymmetry" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/conteiner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
-            <TextView
-                android:id="@+id/main_info_chord1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/start_info_chord"
-                android:layout_marginTop="5dp"
-                android:text="@string/am_chord_info1"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
+                <ImageButton
+                    android:id="@+id/image_play"
+                    android:layout_width="86dp"
+                    android:layout_height="90dp"
+                    android:popupBackground="@android:color/transparent"
+                    android:src="@drawable/play_button"
+                    android:onClick="play"/>
 
-            <TextView
-                android:id="@+id/main_info_chord2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/main_info_chord1"
-                android:layout_marginTop="7dp"
-                android:text="@string/am_chord_info2"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/start_info_chord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@id/image_play"
+                    android:bufferType="spannable"
+                    android:paddingStart="10dp"
+                    android:text="@string/am_chord_start"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
 
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/main_info_chord1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/start_info_chord"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/am_chord_info1"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/main_info_chord2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/main_info_chord1"
+                    android:layout_marginTop="7dp"
+                    android:text="@string/am_chord_info2"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+                </RelativeLayout>
+
+
+            </ScrollView>
 
     </LinearLayout>
 </RelativeLayout>

@@ -209,4 +209,7 @@
 
 
     <string name="guitar_info1">Привет меня зовут илья и это мое приложение для гитаристов</string>
+    <string name="search">Поиск</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_2">Line 2</string>
 </resources>
