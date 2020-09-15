@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
+
     <ImageView
         android:id="@+id/guitar_background"
         android:layout_width="match_parent"
@@ -44,14 +46,125 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <LinearLayout
+                <RelativeLayout
                     android:id="@+id/conteiner4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical" />
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust_1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust2"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust3"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView2"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust4"
+                        android:textSize="25sp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust5"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView7"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="202dp"
+                        android:layout_below="@+id/textView8"
+                        app:srcCompat="@drawable/bust1" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust6"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView5"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="202dp"
+                        android:layout_below="@+id/textView9"
+                        app:srcCompat="@drawable/bust2" />
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust7"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView6"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="202dp"
+                        android:layout_below="@+id/textView10"
+                        app:srcCompat="@drawable/bust3" />
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bust8"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView7"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="202dp"
+                        android:layout_below="@+id/textView11"
+                        app:srcCompat="@drawable/bust4" />
+
+
+
+                </RelativeLayout>
+
+
+
             </ScrollView>
 
         </LinearLayout>
+
+
     </LinearLayout>
 
 </RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <ImageView
@@ -45,14 +46,214 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <LinearLayout
+                <RelativeLayout
                     android:id="@+id/conteiner4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical" />
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats1"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats2"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats3"
+                        android:textSize="25sp"
+                        android:layout_below="@+id/textView2"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats4"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView7"
+                        app:srcCompat="@drawable/beats1" />
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats5"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView5"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats6"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView9"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView10"
+                        app:srcCompat="@drawable/beats2" />
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats7"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView6"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats8"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView11"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView12"
+                        app:srcCompat="@drawable/beats3" />
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats9"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView7"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats10"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView13"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView14"
+                        app:srcCompat="@drawable/beats4" />
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats11"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView8"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats12"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView15"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView16"
+                        app:srcCompat="@drawable/beats5" />
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats13"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView9"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats14"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/textView17"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="109dp"
+                        android:layout_below="@+id/textView18"
+                        app:srcCompat="@drawable/beats6" />
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beats15"
+                        android:textSize="23sp"
+                        android:layout_below="@+id/imageView10"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"/>
+
+
+
+
+
+                </RelativeLayout>
+
+
+
             </ScrollView>
 
         </LinearLayout>
+
+
     </LinearLayout>
 
 </RelativeLayout>

@@ -28,7 +28,7 @@ public class Songs extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ExampleAdapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
-
+    int[] name = {1, 2, 3, 4, 5};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,20 +94,11 @@ public class Songs extends AppCompatActivity {
 
     public void createExampleList(){
         mExampleList = new ArrayList<>();
-        mExampleList.add(new ExampleItem("One", "Line 2"));
-        mExampleList.add(new ExampleItem("Two", "Line 2"));
-        mExampleList.add(new ExampleItem("Three", "Line 2"));
-        mExampleList.add(new ExampleItem("Four", "Line 2"));
-        mExampleList.add(new ExampleItem("Five", "Line 2"));
-        mExampleList.add(new ExampleItem("Six", "Line 2"));
-        mExampleList.add(new ExampleItem("Seven", "Line 2"));
-        mExampleList.add(new ExampleItem("Макс Корж", "Line 2"));
-        mExampleList.add(new ExampleItem("Нервы", "Line 2"));
-        mExampleList.add(new ExampleItem("Земфира", "Line 2"));
-        mExampleList.add(new ExampleItem("Тату", "Line 2"));
-        mExampleList.add(new ExampleItem("Заебався", "Line 2"));
-        mExampleList.add(new ExampleItem("D_mask", "Line 2"));
-        mExampleList.add(new ExampleItem("Eminem", "Line 2"));
+        mExampleList.add(new ExampleItem("Тает дым", "Макс Корж"));
+        mExampleList.add(new ExampleItem("Батареи", "Нервы"));
+        mExampleList.add(new ExampleItem("Самый дорогой человек", "Нервы"));
+        mExampleList.add(new ExampleItem("Вахтерам", "Boombox"));
+        mExampleList.add(new ExampleItem("Звезда по имени Солнце", "Кино"));
     }
 
     public void buildRecyclerView(){
@@ -122,7 +113,13 @@ public class Songs extends AppCompatActivity {
         mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(int position) {
-                Toast.makeText(getApplicationContext(), "click", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"В пизде", Toast.LENGTH_SHORT).show();
+                try {
+                    Intent intent = new Intent(Songs.this, Song.class);
+                    startActivity(intent);finish();
+                }catch (Exception e){
+
+                }
             }
         });
     }
