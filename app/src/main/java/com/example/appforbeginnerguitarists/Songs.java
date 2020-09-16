@@ -113,7 +113,7 @@ public class Songs extends AppCompatActivity {
         mAdapter.setOnItemClickListener(new ExampleAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(int position) {
-                Toast.makeText(getApplicationContext(),"В пизде", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Song chosen", Toast.LENGTH_SHORT).show();
                 try {
                     Intent intent = new Intent(Songs.this, Song.class);
                     startActivity(intent);finish();
